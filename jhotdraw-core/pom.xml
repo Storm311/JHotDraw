@@ -40,11 +40,11 @@
 			<version>6.8.21</version>
 			<scope>test</scope>
 		</dependency>
-		 <dependency>
-		  <groupId>${project.groupId}</groupId>
-		  <artifactId>jhotdraw-actions</artifactId>
-		  <version>${project.version}</version>
-		 </dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jhotdraw-actions</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>dk.sdu.mmmi</groupId>
 			<artifactId>featuretracer</artifactId>
@@ -55,11 +55,11 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.9.9</version>
 		</dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>

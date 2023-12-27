@@ -13,6 +13,7 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.undo.*;
 import org.jhotdraw.util.*;
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 
 /**
  * Same as javax.swing.UndoManager but provides actions for undo and
@@ -133,6 +134,7 @@ public class UndoRedoManager extends UndoManager { //javax.swing.undo.UndoManage
     /**
      * Creates new UndoRedoManager
      */
+    @FeatureEntryPoint(value = "UndoRedoManager")
     public UndoRedoManager() {
         getLabels();
         undoAction = new UndoAction();

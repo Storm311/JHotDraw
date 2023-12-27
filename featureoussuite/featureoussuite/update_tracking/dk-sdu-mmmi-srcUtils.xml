@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.srcUtils/3">
+    <module_version install_time="1663598843495" last="true" origin="installer" specification_version="3.0">
+        <file crc="455750586" name="config/Modules/dk-sdu-mmmi-srcUtils.xml"/>
+        <file crc="1000260815" name="modules/dk-sdu-mmmi-srcUtils.jar"/>
+        <file crc="4084599159" name="modules/ext/jdom-2.0.6.jar"/>
+    </module_version>
+</module>

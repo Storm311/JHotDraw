@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.featureous.icons/3">
+    <module_version install_time="1663598841138" last="true" origin="installer" specification_version="3.0">
+        <file crc="4091902760" name="config/Modules/dk-sdu-mmmi-featureous-icons.xml"/>
+        <file crc="646251986" name="modules/dk-sdu-mmmi-featureous-icons.jar"/>
+        <file crc="3723609685" name="modules/ext/icons.jar"/>
+    </module_version>
+</module>

@@ -7,6 +7,7 @@
  */
 package org.jhotdraw.draw.action;
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.draw.figure.Figure;
 import org.jhotdraw.draw.figure.CompositeFigure;
 import org.jhotdraw.draw.figure.GroupFigure;
@@ -30,19 +31,23 @@ public class GroupAction extends AbstractSelectedAction {
      * If this variable is true, this action groups figures.
      * If this variable is false, this action ungroups figures.
      */
+
     private boolean isGroupingAction;
 
     /**
      * Creates a new instance.
      */
+    @FeatureEntryPoint(value = "GroupAction")
     public GroupAction(DrawingEditor editor) {
         this(editor, new GroupFigure(), true);
     }
 
+    @FeatureEntryPoint(value = "GroupAction")
     public GroupAction(DrawingEditor editor, CompositeFigure prototype) {
         this(editor, prototype, true);
     }
 
+    @FeatureEntryPoint(value = "GroupAction")
     public GroupAction(DrawingEditor editor, CompositeFigure prototype, boolean isGroupingAction) {
         super(editor);
         this.prototype = prototype;

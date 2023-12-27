@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.featureous.featurerelationscharacterization/3">
+    <module_version install_time="1663598850652" last="true" origin="installer" specification_version="3.0">
+        <file crc="235668977" name="config/Modules/dk-sdu-mmmi-featureous-featurerelationscharacterization.xml"/>
+        <file crc="2291873127" name="modules/dk-sdu-mmmi-featureous-featurerelationscharacterization.jar"/>
+    </module_version>
+</module>

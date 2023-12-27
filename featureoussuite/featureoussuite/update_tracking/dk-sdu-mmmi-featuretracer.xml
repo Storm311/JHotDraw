@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.featuretracer/3">
+    <module_version install_time="1663598841869" last="true" origin="installer" specification_version="3.0">
+        <file crc="1898674129" name="config/Modules/dk-sdu-mmmi-featuretracer.xml"/>
+        <file crc="4213498732" name="modules/dk-sdu-mmmi-featuretracer.jar"/>
+        <file crc="982149513" name="modules/ext/FeatureTracer.jar"/>
+        <file crc="2089209612" name="modules/ext/ft.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.jfreechart/3">
+    <module_version install_time="1663598846900" last="true" origin="installer" specification_version="3.0">
+        <file crc="1540546243" name="config/Modules/org-jfreechart.xml"/>
+        <file crc="238924619" name="modules/ext/jcommon-1.0.12.jar"/>
+        <file crc="3857056888" name="modules/ext/jfreechart-1.0.9.jar"/>
+        <file crc="3666600987" name="modules/org-jfreechart.jar"/>
+    </module_version>
+</module>

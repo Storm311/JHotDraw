@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.utils.ga/3">
+    <module_version install_time="1663598844193" last="true" origin="installer" specification_version="3.0">
+        <file crc="2721781752" name="config/Modules/dk-sdu-mmmi-utils-ga.xml"/>
+        <file crc="1416602957" name="modules/dk-sdu-mmmi-utils-ga.jar"/>
+    </module_version>
+</module>

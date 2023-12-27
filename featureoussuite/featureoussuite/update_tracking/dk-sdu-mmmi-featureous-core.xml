@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.featureous.core/3">
+    <module_version install_time="1663598845485" last="true" origin="installer" specification_version="3.0.2">
+        <file crc="3538422252" name="config/Modules/dk-sdu-mmmi-featureous-core.xml"/>
+        <file crc="1948197209" name="modules/dk-sdu-mmmi-featureous-core.jar"/>
+        <file crc="982149513" name="modules/ext/FeatureTracer.jar"/>
+    </module_version>
+</module>

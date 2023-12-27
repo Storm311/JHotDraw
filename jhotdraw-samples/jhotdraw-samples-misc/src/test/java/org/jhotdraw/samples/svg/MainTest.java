@@ -26,19 +26,11 @@ import org.junit.Test;
  * @author jcs
  */
 public class MainTest {
-
-    /**
-     * Test of main method, of class Main.
-     */
     @Test
     public void testMain() {
-        System.out.println("main");
         String[] args = {};
         Main.main(args);
-
         while (true){
-
         }
     }
-
 }

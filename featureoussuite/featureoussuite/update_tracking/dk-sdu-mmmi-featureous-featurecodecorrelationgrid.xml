@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.featureous.featurecodecorrelationgrid/3">
-    <module_version install_time="1663598846278" last="true" origin="installer" specification_version="3.0">
-        <file crc="3508210530" name="config/Modules/dk-sdu-mmmi-featureous-featurecodecorrelationgrid.xml"/>
-        <file crc="3974175645" name="modules/dk-sdu-mmmi-featureous-featurecodecorrelationgrid.jar"/>
-    </module_version>
-</module>

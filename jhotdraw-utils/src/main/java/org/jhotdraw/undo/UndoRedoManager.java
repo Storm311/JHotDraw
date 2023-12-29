@@ -28,7 +28,7 @@ import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 public class UndoRedoManager extends UndoManager {
 
     private static final long serialVersionUID = 1L;
-    private LogManager logManager;
+    private transient LogManager logManager;
     protected PropertyChangeSupport propertySupport = new PropertyChangeSupport(this);
     private static final boolean DEBUG = false;
     /**

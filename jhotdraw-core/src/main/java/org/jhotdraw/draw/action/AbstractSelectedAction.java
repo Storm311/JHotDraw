@@ -84,7 +84,6 @@ public abstract class AbstractSelectedAction
      */
     protected AbstractSelectedAction(DrawingEditor editor) {
         setEditor(editor);
-        //updateEnabledState();
     }
 
     /**

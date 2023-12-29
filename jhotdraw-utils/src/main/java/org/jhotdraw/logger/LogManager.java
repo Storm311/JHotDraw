@@ -11,7 +11,7 @@ public class LogManager {
         try {
             this.logger.addHandler(new LoggerFileHandler());
         } catch (IOException e) {
-            logger.log(Level.SEVERE, e.toString()); // Handle the exception appropriately in your actual code
+            logger.log(Level.SEVERE, e.toString());
         }
     }
 

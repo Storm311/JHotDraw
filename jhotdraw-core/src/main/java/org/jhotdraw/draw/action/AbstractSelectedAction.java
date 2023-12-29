@@ -82,7 +82,7 @@ public abstract class AbstractSelectedAction
      * Creates an action which acts on the selected figures on the current view
      * of the specified editor.
      */
-    public AbstractSelectedAction(DrawingEditor editor) {
+    protected AbstractSelectedAction(DrawingEditor editor) {
         setEditor(editor);
         //updateEnabledState();
     }

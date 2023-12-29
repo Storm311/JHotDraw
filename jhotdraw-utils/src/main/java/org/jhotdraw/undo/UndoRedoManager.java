@@ -25,7 +25,7 @@ import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
  * @author Werner Randelshofer
  * @version $Id$
  */
-public class UndoRedoManager extends UndoManager { //javax.swing.undo.UndoManager {
+public class UndoRedoManager extends UndoManager {
 
     private static final long serialVersionUID = 1L;
     private LogManager logManager;

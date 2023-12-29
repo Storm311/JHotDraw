@@ -153,7 +153,7 @@ public class UndoRedoManager extends UndoManager { //javax.swing.undo.UndoManage
      * Discards all edits.
      */
     @Override
-    public void discardAllEdits() {
+    public synchronized void discardAllEdits() {
         super.discardAllEdits();
         updateActions();
         setHasSignificantEdits(false);
@@ -192,7 +192,7 @@ public class UndoRedoManager extends UndoManager { //javax.swing.undo.UndoManage
      * @see CompoundEdit#addEdit
      */
     @Override
-    public boolean addEdit(UndoableEdit anEdit) {
+    public synchronized boolean addEdit(UndoableEdit anEdit) {
         if (DEBUG) {
             logManager.log(Level.INFO, "UndoRedoManager@" + hashCode() + ".add " + anEdit);
         }

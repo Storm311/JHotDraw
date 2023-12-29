@@ -38,11 +38,11 @@ import org.jhotdraw.draw.event.FigureSelectionListener;
  * @version $Id$
  */
 public abstract class AbstractSelectedAction
-        extends AbstractAction implements Disposable {
+         extends AbstractAction implements Disposable {
 
     private static final long serialVersionUID = 1L;
-    private DrawingEditor editor;
-    transient private DrawingView activeView;
+    private transient DrawingEditor editor;
+    private transient DrawingView activeView;
 
     private class EventHandler implements PropertyChangeListener, FigureSelectionListener, Serializable {
 

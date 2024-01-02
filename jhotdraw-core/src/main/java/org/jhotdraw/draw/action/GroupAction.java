@@ -27,7 +27,7 @@ public class GroupAction extends AbstractSelectedAction {
     private static final long serialVersionUID = 1L;
     public static final String ID = "edit.groupSelection";
     public static final String LABEL_BUNDLE = "org.jhotdraw.draw.Labels";
-    private CompositeFigure prototype;
+    CompositeFigure prototype;
     /**
      * If this variable is true, this action groups figures.
      * If this variable is false, this action ungroups figures.
@@ -151,7 +151,7 @@ public class GroupAction extends AbstractSelectedAction {
     }
 
     public Collection<Figure> ungroupFigures(DrawingView view, CompositeFigure group) {
-// XXX - This code is redundant with UngroupAction
+        // XXX - This code is redundant with UngroupAction
         LinkedList<Figure> figures = new LinkedList<>(group.getChildren());
         view.clearSelection();
         group.basicRemoveAllChildren();

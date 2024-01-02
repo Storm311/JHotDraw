@@ -2,6 +2,8 @@ target
 *.patch
 *.class
 nb-configuration.xml
+*.iml
+logs
 .idea/*
 *.ftf
 /jhotdraw-samples/jhotdraw-samples-misc/nbproject/
